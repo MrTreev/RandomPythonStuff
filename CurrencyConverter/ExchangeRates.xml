@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<doc>
+	<Currency tag = "USD">
+		<Name>US Dollars</Name>
+		<Rate>0.86</Rate>
+	</Currency>
+	<Currency tag = "DM">
+		<Name>German Marks</Name>
+		<Rate>2.12</Rate>
+	</Currency>
+	<Currency tag = "YEN">
+		<Name>Japanese Yen</Name>
+		<Rate>92.2</Rate>
+	</Currency>
+	<Currency tag = "NZD">
+		<Name>New Zealand Dollars</Name>
+		<Rate>1.45</Rate >
+	</Currency>
+</doc>

@@ -1,0 +1,18 @@
+		"\n Australian Dollars:  " + str(AUD) +
+		"\n US Dollars:          " + str(USD) +
+		"\n German Marks:        " + str(DMA) +
+		"\n Japanese Yen:        " + str(YEN) +
+		"\n New Zealand Dollars: " + str(NZD) +
+
+		USD=Decimal(vars[0])*AUD
+		DMA=Decimal(vars[1])*AUD
+		YEN=Decimal(vars[2])*AUD
+		NZD=Decimal(vars[3])*AUD
+
+#This is the code for the 2d Array version
+	vars = []
+	for lines in open("ExchangeRates.txt") :
+		vars.append(lines.split(" = ")
+	for i in vars:
+		vars[i,1].strip("\n")
+	print(vars)
